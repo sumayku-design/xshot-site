@@ -1,0 +1,369 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"scr",
+				"script"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"col-md-",
+				"col-md-6"
+			],
+			[
+				"col-",
+				"col-md-4"
+			],
+			[
+				"No",
+				"Now"
+			],
+			[
+				"co",
+				"container"
+			],
+			[
+				"he",
+				"href"
+			],
+			[
+				"col",
+				"col-md-12"
+			],
+			[
+				"clo",
+				"col-xs-6"
+			],
+			[
+				"c",
+				"container"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"lit",
+				"list-style"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"s",
+				"span	Tag"
+			],
+			[
+				"z",
+				"z-index"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 242.0,
+		"selected_items":
+		[
+			[
+				"men",
+				"View: Toggle Menu"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"align",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/winnerstaff/Documents/GitHub/slider_rev/guides&more/s03.FullScreen.html",
+		"/C/Users/winnerstaff/Documents/GitHub/xshot-site/css/navstylechange.css",
+		"/C/Users/winnerstaff/Documents/GitHub/xshot-site/css/style.scss",
+		"/C/Users/winnerstaff/Documents/GitHub/xshot-site/slider.jade",
+		"/C/Users/winnerstaff/Documents/GitHub/xshot-site/head.jade",
+		"/C/Users/winnerstaff/Documents/GitHub/xshot-site/css/url",
+		"/C/Users/winnerstaff/Documents/GitHub/xshot-site/index.html",
+		"/C/Users/winnerstaff/Documents/GitHub/slider/slider-test.html",
+		"/C/Users/winnerstaff/Documents/GitHub/xshot-site/index.jade",
+		"/C/Users/winnerstaff/Documents/GitHub/xshot-site/js/jquery.themepunch.revolution.js",
+		"/C/Users/winnerstaff/Documents/GitHub/xshot-site/js/jquery.themepunch.revolution.min.js",
+		"/C/Users/winnerstaff/Documents/GitHub/slider_rev/examples&source/css/style.css",
+		"/C/Users/winnerstaff/Documents/GitHub/slider_rev/examples&source/css/noneed.css",
+		"/C/Users/winnerstaff/Documents/GitHub/xshot-site/s03.FullScreen.html",
+		"/C/Users/winnerstaff/Documents/GitHub/xshot-site/foother.jade",
+		"/C/Users/winnerstaff/Documents/GitHub/slider_rev/examples&source/home-fullscreen.html",
+		"/C/Users/WINNER~1/AppData/Local/Temp/Rar$DR00.273/startbootstrap-full-slider-gh-pages/index.html",
+		"/C/Users/winnerstaff/Desktop/slider/guides&more/s03.FullScreen.html",
+		"/C/Users/winnerstaff/Documents/GitHub/xshot-site/rankdetail.jade",
+		"/C/Users/winnerstaff/Documents/GitHub/xshot-site/script.jade",
+		"/C/Users/winnerstaff/Documents/GitHub/xshot-site/README.md",
+		"/C/Users/winnerstaff/Documents/GitHub/xshot-site/css/style.css",
+		"/C/Users/winnerstaff/Documents/GitHub/xshot-site/js/bootstrap.js",
+		"/C/Users/winnerstaff/Documents/GitHub/xshot-site/js/bootstrap.min.js",
+		"/C/Users/winnerstaff/Documents/GitHub/xshot-site/js/npm.js",
+		"/C/Users/winnerstaff/Documents/GitHub/xshot-site/css/style.css.map",
+		"/C/Users/winnerstaff/Desktop/Web Dev/style.css",
+		"/C/Users/winnerstaff/Desktop/Web Dev/index.html",
+		"/C/Users/winnerstaff/Desktop/flash-banner/Banner Ramdahan.html",
+		"/C/Program Files/Sublime Text Build 3047/Data/Packages/User/ColorPicker.sublime-settings",
+		"/C/Users/winnerstaff/Desktop/Buttonxshot.css",
+		"//FTP/ShareFull/7.PL.Graphics/intro(1).php",
+		"/C/Users/winnerstaff/Desktop/20150422/intro.php",
+		"/C/Users/WINNER~1/AppData/Local/Temp/Rar$DR04.396/20150422/style.php",
+		"/C/Users/WINNER~1/AppData/Local/Temp/Rar$DR15.070/20150422/intro.php",
+		"/C/Users/winnerstaff/Desktop/Web Dev/ty.html",
+		"/C/Users/winnerstaff/Desktop/DEVELOP/IceCreamYou-Nemesis-eda06eb/index.html",
+		"/C/Users/winnerstaff/Desktop/DEVELOP/IceCreamYou-Nemesis-eda06eb/ColladaLoader.js",
+		"/C/Users/winnerstaff/Documents/korninate icon.css",
+		"/C/Users/winnerstaff/Desktop/DEVELOP/IceCreamYou-Nemesis-eda06eb/jquery-1.7.2.min.js",
+		"/C/Users/winnerstaff/Desktop/SpriteSheet/idex.html",
+		"/C/Users/winnerstaff/Downloads/Dll-Files Fixer 3.0.81.2643 Final ML Retail + Crack - SceneDL (PimpRG)/SceneDL.nfo",
+		"/C/Users/winnerstaff/Desktop/Web Dev/Xshot Intro Website/css/style.css",
+		"/C/Users/winnerstaff/Desktop/Web Dev/Xshot Intro Website/index.html",
+		"/C/Users/winnerstaff/Desktop/Web Dev/style/style.css",
+		"/C/Users/winnerstaff/Desktop/Web Dev/examples/styles/styles.css",
+		"/C/Users/winnerstaff/Desktop/Web Dev/deploy/spark.js",
+		"/C/Users/winnerstaff/Desktop/Web Dev/examples/scripts/zepto.js",
+		"/C/Users/winnerstaff/Desktop/Web Dev/examples/simple.html",
+		"/C/Users/winnerstaff/Desktop/Web Dev/style/style-ecmple.css",
+		"/C/Users/winnerstaff/Desktop/Web Dev/examples/interactive.html",
+		"/C/Users/winnerstaff/Desktop/Web Dev/img/layer-one.png",
+		"/C/Users/winnerstaff/inde.html",
+		"//FTP/ShareFull/3.PL.IT/Master/Total Video Converter HD v3.71 + Serials [ChattChitto RG]/ChattChitto RG.nfo",
+		"//FTP/ShareFull/3.PL.IT/Master/Total Video Converter HD v3.71 + Serials [ChattChitto RG]/ChattChitto RG.url",
+		"/D/Tool/Adobe Premiere Pro CS4/PlanetMaster.nfo",
+		"/C/Users/WINNER~1/AppData/Local/Temp/Rar$DR39.560/parallax-master/examples/scripts/zepto.js",
+		"/C/Users/WINNER~1/AppData/Local/Temp/Rar$DR34.341/parallax-master/examples/simple.html",
+		"/C/Users/WINNER~1/AppData/Local/Temp/Rar$DR37.115/parallax-master/examples/styles/styles.css",
+		"/C/Users/WINNER~1/AppData/Local/Temp/Rar$DR35.390/parallax-master/examples/interactive.html",
+		"/F/SOFTWARE/Axure RP Pro v7.0.0.3155 WiN Incl. Keygen-BEAN [deepstatus][h33t][1337x][flashtorrents]/file_id.diz",
+		"/F/SOFTWARE/Axure RP Pro v7.0.0.3155 WiN Incl. Keygen-BEAN [deepstatus][h33t][1337x][flashtorrents]/bean.nfo"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"			)",
+			"./",
+			"url",
+			"rs-plugin/",
+			"table",
+			"button",
+			"img",
+			"Detail",
+			"slidebg1",
+			"starts",
+			"gif",
+			"class=\"fa fa-info fa-2x\"",
+			">\n",
+			"<li><a class=\"fa fa-info fa-2x\" href=\"#\">News</a></li>",
+			"div",
+			"/tmp/intro/2015/2015-04/20150422/facebook_gabung.png",
+			"/tmp/intro/2015/2015-04/20150422/enterwebsite_gabung.png",
+			"slider",
+			"nws",
+			"hm",
+			"a",
+			"button",
+			"<button>layer[4]</button></li>",
+			"<button>layer[5]</button>",
+			"button",
+			"z-index",
+			"Z-INDEX",
+			"container",
+			"img",
+			"aspect",
+			"layer"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 212.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

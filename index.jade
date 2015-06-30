@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+html(lang="en")
+	//- header
+	include head.jade
+	body
+		//- BRAND MAIN NAV
+
+		section
+			.row.sec-reg-log
+				.col-md-2
+				div.col-xs-12.col-md-3.brand-logo
+					img(src="./img/logo-xshot.png")
+				ul.col-md-10.reg-log.list-inline.text-right
+					li
+						a(class={active: currentUrl === '/'} href='#') Register
+					li |
+					li
+						a(class={active: currentUrl === '/'} href='#') login
+
+		// SLIDER RESPONSIVE
+		include slider.jade
+		.tp-bannertimer
+
+		//- Main Navigation
+		div#custom-bootstrap-menu.navbar.navbar-default(role='navigation')
+			div.container-fluid
+				div.navbar-header
+					.button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-menubuilder')
+						span.sr-only Toggle navigation
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+				.collapse.navbar-collapse.navbar-menubuilder
+					uli.nav.navbar-nav#menu-centar(data-target='menu-utama')
+						li
+							a(href='#') HOME
+						li
+							a(href='#') FEATURE
+						li
+							a(href='#') NEWS
+						li
+							a(href='#') DOWNLOAD
+						li
+							a(href='#') FORUM
+						li
+							button(type="button" class="btn btn-default navbar-btn") TOP UP
+
+		//----------------------- WIDGET 
+		include wiget.jade
+
+
+		//- NEWS-EVENT-PROMO-UPDATE-E SPORT
+		section
+			.container
+				div#owl-demo.owl-carousel
+					a(href="#" class='item')
+
+
+
+
+
+
+
+		//-------------- CUSTOME SECTION
+		section.uniform
+			.container
+				div#owl-demo.owl-carousel
+					a(href="#" class="item-uni") 
+						img(src="img/asset-post/ssshhh.png")
+					a(href="#" class="item-uni") 
+						img(src="img/asset-post/uniformxshot.png")
+					a(href="#" class="item-uni") 
+						img(src="img/asset-post/cool.png")
+					a(href="#" class="item-uni") 
+						img(src="img/asset-post/cool.png")
+				div.arrow-left
+				div.arrow-right
+				div.button-shop-uniform
+
+
+		//------------ WEAPON UNIFORM
+		section.weapon
+			.container
+				div#owl-demo.owl-carousel
+					a(href="#" class="item-wpn") 
+						img(src="img/asset-post/ak47.png")
+					a(href="#" class="item-wpn") 
+						img(src="img/asset-post/col11.png")
+					a(href="#" class="item-wpn") 
+						img(src="img/asset-post/micinegun.png")
+					a(href="#" class="item-wpn") 
+						img(src="img/asset-post/micinegun.png")
+				div.arrow-left
+				div.arrow-right
+				div.button-shop-weapon
+		
+		//------------ TOP PLAYER
+		section.rank-area
+			div.container-fluid.rannk-area-orange
+				div.row.text-center
+					div.col-ms-4.col-xs-4
+						i 
+							img(src="img/icon-head-shot.png")
+						h4 HEAD KILL
+						i.garis
+						h5 RANK TOP THE WEEK
+
+					div.col-ms-4.col-xs-4
+						i 
+							img(src="img/icon-top-player.png")
+						h4 PLAYER
+						i.garis
+						h5 RANK TOP THE WEEK
+
+					div.col-ms-4.col-xs-4
+						i 
+							img(src="img/icon-kniff-shot.png")
+						h4 HEAD KILL
+						i.garis
+						h5 RANK TOP THE WEEK
+
+		//---------------- BATTLE ROYAL
+		section.br-color#battle-royal
+			.text-center
+				li.battle-royal-title
+				li.char-xshot
+					img(src="img/bt-royal.png")
+				li.char-xshot
+					img(src="img/bt-royal-shadow.png")
+		//- ---------- MEDIA
+		section.media-xshot
+			div.container
+				div.col-md-6.wallpaper
+
+					span.mask
+						a(href="#")
+							i.icon-walpaper
+					img(src="img/walpaper.jpg" alt=wallpaper)
+				div.col-md-6.wallpaper
+					span.mask
+						a(href="#")
+							i.icon-media
+					img(src="img/media.jpg" alt=wallpaper)
+
+
+
+		//------------ SOCIAL MEDIA
+		section.social-media
+			div.container-fluid
+				div.row
+						li.col-ms-4.col-xs-4.list-inline
+							img(src="img/fb.png")
+						li.col-ms-4.col-xs-4.list-inline
+							img(src="img/twt.png")
+						li.col-ms-4.col-xs-4.list-inline
+							img(src="img/goplus.png")
+
+		//- LOGO WINER & DEVELOPER
+		section.logo-pub-dev
+			div.container
+				div.row
+					div.col-md-6
+						li.logo-winner
+							a(href="#")
+						li.logo-kingsof
+							a(href="#")
+
+		//-------- COPYRIGHT
+		section.footer-copywright
+			div.container
+				.row.text-center
+					p Copyright©2014 Winner Online Co.,Ltd. All rights Reserved
+		//----- FOOTER
+		include foother.jade
+		
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		

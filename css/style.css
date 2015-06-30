@@ -1,0 +1,148 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,500italic,700italic);
+/***********************
+	Global Style
+***********************/
+ul, ol, li, a {
+  list-style: none;
+  color: #fff; }
+
+h3 {
+  color: #fff; }
+
+/***********************
+		Header
+***********************/
+.sec-reg-log {
+  background-color: #000; }
+
+.brand-logo {
+  padding-top: 10px;
+  height: 1px; }
+  .brand-logo img {
+    width: 80px;
+    height: auto; }
+
+/***********************
+		Slider
+***********************/
+.boxedcontainer {
+  max-width: 1170px;
+  margin: auto;
+  padding: 0px 30px; }
+
+.tp-banner-container {
+  width: 100%;
+  position: relative;
+  padding: 0; }
+
+.tp-banner {
+  width: 100%;
+  position: relative; }
+
+.tp-banner-fullscreen-container {
+  width: 100%;
+  position: relative;
+  padding: 0; }
+
+/***********************
+	Main Navigation
+***********************/
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+  padding-top: -1px;
+  color: white; 
+}
+
+#custom-bootstrap-menu.navbar-default {
+  font-size: 16px;
+  background-color: #ffa233;
+  border-width: 1px;
+  border-radius: 4px; }
+
+#custom-bootstrap-menu.navbar-default .navbar-nav > li > a {
+  color: white;
+  background-color: #ffa233; }
+
+#custom-bootstrap-menu.navbar-default .navbar-nav > li > a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav > li > a:focus {
+  color: black;
+  background-color: #fff; }
+
+#custom-bootstrap-menu.navbar-default .navbar-nav > .active > a,
+#custom-bootstrap-menu.navbar-default .navbar-nav > .active > a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav > .active > a:focus {
+  color: #555555;
+  background-color: white; }
+
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+  border-color: #ffffff; }
+
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+  background-color: #ffffff; }
+
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff; }
+
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+  background-color: #ffa233; }
+
+/***********************
+	Widget
+***********************/
+#wiget1 {
+  background: url(../img/wiget-1.jpg) no-repeat center center;
+  display: table;
+  margin-top:-50px;
+  height: 956px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+.wiget-center{
+  margin-top: 350px;
+}
+.flag li{
+    margin-top: 100px;
+}
+#thai {
+  background: url(../img/spirate-sheet.png) no-repeat -1350px -46px;
+  width: 87px;
+  height: 59px;
+}
+#thai a:hover{
+  background: url(../img/spirate-sheet.png) no-repeat -1350px -144px;
+  width: 87px;
+  height: 59px;
+}
+#indo{
+  background: url(../img/spirate-sheet.png) no-repeat -1445px -46px;
+  width: 88px;
+  height: 61px;
+}
+#indo a:hover {
+  background: url(../img/spirate-sheet.png) no-repeat -1445px -144px;
+  width: 88px;
+  height: 61px;
+}
+#taiw{
+  background: url(../img/spirate-sheet.png) no-repeat -1541px -44px;
+  width: 88px;
+  height: 60px;
+}
+#taiw a:hover {
+  background: url(../imgs/spirate-sheet.png) no-repeat -1541px -142px;
+  width: 88px;
+  height: 60px;
+}
+/*Widget Transation In Jquary*/
+
+/***********************
+  NEWS-EVENT-PROMO-UPDATE-E SPORT
+
+  Use Json
+
+***********************/
