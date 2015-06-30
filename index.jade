@@ -50,15 +50,37 @@ html(lang="en")
 
 
 		//- NEWS-EVENT-PROMO-UPDATE-E SPORT
-		section
-			.container
-				div
-					a(href="#" class='item')
+		section.update-post#update-post
+			.tabbale
+				ul.nav.nav-tabs.tabs-style
+					li(role="News").active 
+						a(href="#tab1" data-toggle="tab") News
+					li(role="Event")
+						a(href="tab2" data-toggle="tab") Event
+					li(role="Promo")
+						a(href="tab3" data-toggle="tab") Promo
+					li(role="Update")
+						a(href="tab4" data-toggle="tab") Update
+					li(role="E-Sport")
+						a(href="tab2" data-toggle="tab") E-sport
+				.tab-content
+					#tab1.tab-pane.active
+						#owl-demo.owl-carousel.owl-theme
+							.post
+								a(href="#")
+									img(src="..img/asset-post/accumulasi.png")
+							.post
+								a(href="#")
+									img(src="..img/asset-post/bestforthebestpng.png")
+							.post
+								a(href="#")
+									img(src="..img/asset-post/pendaftaranofflinecompo.png")
+							.post
+								a(href="#")
+									img(src="..img/asset-post/music-of.png")
 
-
-
-
-
+				.readmore
+	
 
 
 		//-------------- CUSTOME SECTION

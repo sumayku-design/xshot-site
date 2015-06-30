@@ -142,7 +142,14 @@ h3 {
 
 /***********************
   NEWS-EVENT-PROMO-UPDATE-E SPORT
-
-  Use Json
+  
 
 ***********************/
+.tabs-style {
+  background-color: #333;
+}
+a:hover,
+a:focus {
+  color: #fff;
+  text-decoration: underline;
+}
