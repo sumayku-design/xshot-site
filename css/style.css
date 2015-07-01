@@ -47,16 +47,31 @@ h3 {
 /***********************
 	Main Navigation
 ***********************/
+#top-up{
+	border-radius: none;
+
+
+}
+@media (min-width: 768px){
+    .navbar-nav{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+}
 #custom-bootstrap-menu.navbar-default .navbar-brand {
   padding-top: -1px;
   color: white; 
 }
 
 #custom-bootstrap-menu.navbar-default {
+  font-family: "Ubuntu", Times, Serif;
+  font-weight: bold;
   font-size: 16px;
   background-color: #ffa233;
   border-width: 1px;
-  border-radius: 4px; }
+ }
 
 #custom-bootstrap-menu.navbar-default .navbar-nav > li > a {
   color: white;
@@ -64,7 +79,7 @@ h3 {
 
 #custom-bootstrap-menu.navbar-default .navbar-nav > li > a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav > li > a:focus {
-  color: black;
+  color: #ffa233;
   background-color: #fff; }
 
 #custom-bootstrap-menu.navbar-default .navbar-nav > .active > a,
@@ -93,7 +108,7 @@ h3 {
 #wiget1 {
   background: url(../img/wiget-1.jpg) no-repeat center center;
   display: table;
-  margin-top:-50px;
+  margin-top:-20px;
   height: 956px;
   position: relative;
   width: 100%;
@@ -145,6 +160,13 @@ h3 {
   
 
 ***********************/
+.jedul{
+	font-family: "Ubuntu", serif;
+	font-weight: 700;
+	font-size: 4.1em;
+	margin-bottom: 100px;
+	color: #fff;
+}
 .tabs-style {
   background-color: #333;
 }
@@ -152,4 +174,23 @@ a:hover,
 a:focus {
   color: #fff;
   text-decoration: underline;
+}
+#join-now {
+	
+	border: none;
+	font-family: "Ubuntu", Times, Serif;
+	font-size: inherit;
+	color: #fff;
+	background: none;
+	cursor: pointer;
+	position: relative;
+	border: 4px solid #fff;
+	text-decoration: none;
+	padding: 15px 40px;
+	z-index: 1;
+}
+#join-now:hover,
+#join-now:active {
+	color: #ffa233;
+	background: #fff;
 }
