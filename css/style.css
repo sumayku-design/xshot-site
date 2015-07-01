@@ -117,6 +117,60 @@ h3 {
   -o-background-size: cover;
   background-size: cover; 
 }
+#wiget2 {
+  background: url(../img/wiget-2.jpg) no-repeat center center;
+  display: table;
+  height: 956px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+#jedul1{
+	position: relative;
+	margin-bottom:20px;
+}
+#jedelorange{
+	color:#ffa233;
+}
+.jedul{
+	font-family: "Ubuntu", serif;
+	font-weight: 700;
+	font-size: 4.1em;
+	margin-bottom: 100px;
+	color: #fff;
+}
+.tabs-style {
+  background-color: #333;
+}
+a:hover,
+a:focus {
+  color: #fff;
+  text-decoration: underline;
+}
+#tombol {
+	border: none;
+	font-family: "Ubuntu", Times, Serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	background: none;
+	cursor: pointer;
+	position: relative;
+	border: 4px solid #fff;
+	text-decoration: none;
+	padding: 15px 40px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+#tombol:hover,
+#tombol:active {
+	color: #ffa233;
+	background: #fff;
+}
 .wiget-center{
   margin-top: 350px;
 }
@@ -153,44 +207,42 @@ h3 {
   width: 88px;
   height: 60px;
 }
-/*Widget Transation In Jquary*/
+.fb span{
+	display: table;
+	margin: 200px auto 25px;
+	color: #5a5a5a;
+	position: relative;
+	border: 2px solid #fff;
+	width: 100px;
+	height: 100px;
+	font-size: 35px;
+	border-radius: 50%;
+	padding-top: 22px
+}
+
+
 
 /***********************
+
   NEWS-EVENT-PROMO-UPDATE-E SPORT
   
+**********************/
 
-***********************/
-.jedul{
-	font-family: "Ubuntu", serif;
-	font-weight: 700;
-	font-size: 4.1em;
-	margin-bottom: 100px;
-	color: #fff;
+/*TEST COURASEl*/
+#owl-demo .item {
+    background: none repeat scroll 0 0 #42BDC2;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    margin: 5px;
+    padding: 30px 0;
+    text-align: center;
 }
-.tabs-style {
-  background-color: #333;
+#owl-demo2 .item {
+    background: none repeat scroll 0 0 #00FF00;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    margin: 5px;
+    padding: 30px 0;
+    text-align: center;
 }
-a:hover,
-a:focus {
-  color: #fff;
-  text-decoration: underline;
-}
-#join-now {
-	
-	border: none;
-	font-family: "Ubuntu", Times, Serif;
-	font-size: inherit;
-	color: #fff;
-	background: none;
-	cursor: pointer;
-	position: relative;
-	border: 4px solid #fff;
-	text-decoration: none;
-	padding: 15px 40px;
-	z-index: 1;
-}
-#join-now:hover,
-#join-now:active {
-	color: #ffa233;
-	background: #fff;
-}
+
