@@ -1,7 +1,7 @@
 $(document).ready(function() {
+
 // slider
-	var revapi = $('.tp-banner').revolution(
-		{	
+	$('.tp-banner').revolution({	
 			navigationType:"none",
 			navigationArrows:"solo",
 			navigationStyle:"preview1",
@@ -15,10 +15,19 @@ $(document).ready(function() {
 			fullScreenOffsetContainer: ""
 
 		});
+// Owl Hover Effect
+	$('.post img').addClass('image-fade hover')
+	
+
 // Owl Update : News, Event, Promo, Update, E-sport
-	var upDate = $("#owl-update").owlCarousel({
-			navigation : true
-		});
+	$("#owl-news, #owl-event, #owl-promo, #owl-update, #owl-Esport").owlCarousel({
+		navigation:true,
+		items:5,
+	    loop:true,
+	    autoplay:true,
+	    autoplayTimeout:900,
+	    autoplayHoverPause:true
+	});
 
 
 });	

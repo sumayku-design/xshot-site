@@ -152,7 +152,7 @@ a:focus {
 }
 #tombol {
 	border: none;
-	font-family: "Ubuntu", Times, Serif;
+	font-family: "Ubuntu", Serif;
 	font-size: 16px;
 	font-weight: bold;
 	color: #fff;
@@ -170,6 +170,27 @@ a:focus {
 #tombol:active {
 	color: #ffa233;
 	background: #fff;
+}
+#tombol-owl{
+  border: none;
+  font-family: "Ubuntu", Times, Serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  background: none;
+  cursor: pointer;
+  position: relative;
+  border: 1px solid #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#tombol-owl:hover,
+#tombol-owl:active {
+  color: #ffa233;
+  background: #fff;
 }
 .wiget-center{
   margin-top: 350px;
@@ -219,44 +240,35 @@ a:focus {
 	border-radius: 50%;
 	padding-top: 22px
 }
-
-
-
 /***********************
 
   NEWS-EVENT-PROMO-UPDATE-E SPORT
   
 **********************/
-
-/*TEST COURASEl*/
-#owl-news .item {
-    color: #FFFFFF;
-    padding: 30px 0;
-    text-align: center;
+.readmore a{
+  color: #000;
 }
-.owl-next {
-    width: 86px;
-    height: 185px;
-    right: 0;
-    position: absolute;
-    cursor: pointer;
-    right: 30px;
-    text-indent: -10000px;
-    top: 50%;
-    margin: -55px 0 0 0;
-    padding: 0 10px;
-    transition: background 0.5s;
-  }
-.owl-prev {
-    width: 86px;
-    height: 185px;
-    position: absolute;
-    cursor: pointer;
-    text-indent: -10000px;
-    left: 30px;
-    top: 50%;
-    margin: -55px 0 0 0;
-    padding: 0 10px;
-    transition: background 0.5s;
-  }
-
+.readmore{
+  font-family: "Ubuntu", Serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: #E77800;
+  border-bottom: 0 0 5px solid;
+}
+/*TEST COURASEl*/
+.tabb{
+  display:inline-block;
+  background:#E77800;
+}
+.image-fade{
+    vertical-align:top;
+    opacity: 1;
+    transition: opacity .15s ease-in-out;
+    -moz-transition: opacity .15s ease-in-out;
+    -webkit-transition: opacity .15s ease-in-out;
+    -o-transition: opacity .15s ease-in-out;
+}
+.hover:hover{
+    opacity:0.2;
+}
